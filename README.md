@@ -1,0 +1,5 @@
+# Identification-of-Patient-data-using-Kohonen-Neural-Network
+
+The Self-Organizing Map is one of the most popular neural network models. One particularly interesting class of unsupervised system is based on competitive learning, in which the output neurons compete amongst themselves to be activated, with the result that only one is activated at any one time. This activated neuron is called a winning neuron. Such competition can be implemented by having lateral inhibition connections between the neurons. The result is that the neurons are forced to organize themselves. For obvious reasons, such a network is called a Self Organizing Map (SOM).
+For example, we can use the SOM for clustering data without knowing the class memberships of the input data. The Self-Organizing Map was developed by Prof. Kohonen. This is also used to produce a low-dimensional (typically two-dimensional), discretized representation of the input space of the training samples.
+In the Kohonen network the cluster is formed with weights as a centroid of the cluster. So, after finding the weights, each test data is compared with weights to judge the cluster to which data belongs to.
